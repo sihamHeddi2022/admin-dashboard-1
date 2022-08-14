@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="aside" id="aside">
+        <div class="top">
+          <h2>
+              Admin<span
+              class="extra"
+              >Dashboard</span
+            >
+          </h2>
+        </div>
+        <div class="sidebar">
+          <a href="#" class="active">
+            <span class="material-icons"> home </span>
+            Dashboard
+          </a>
+          <a href="#">
+            <span class="material-icons"> list_alt </span>
+            Forms
+          </a>
+          <a href="#">
+            <span class="material-icons"> style </span>
+            Cards
+          </a>
+          <a href="#">
+            <span class="material-icons"> donut_small </span>
+            Charts
+          </a>
+          <a href="#">
+            <span class="material-icons"> list_alt </span>
+            Buttons
+          </a>
+          <a href="#">
+            <span class="material-icons"> animation </span>
+            Modals
+          </a>
+          <a href="#">
+            <span class="material-icons"> table_chart </span>
+            Tables
+          </a>
+          <a href="#">
+            <span class="material-icons"> layers </span>
+            Pages
+          </a>
+          <button>
+            Create Account <span class="material-icons">arrow_right </span>
+          </button>
+          <div class="close" id="close">
+            <span class="material-icons">
+              close
+              </span>
+          </div>
+          <button class="small-btn">
+            <span class="material-icons">
+              person_add
+              </span>
+          </button>
+        </div>
+      </div>
+      <div class="main">
+        <div class="top">
+          <button class="menu" id="menu">
+              <span class="material-icons">
+                menu
+                </span>
+          </button>
+          <div class="search">
+            <span class="material-icons"> search </span>
+
+            <input
+              type="text"
+              name="search"
+              placeholder="Search for projects"
+            />
+          </div>
+          <div class="info">
+            <span class="notification">
+              <span class="material-icons"> notifications </span>
+              <span class="count"></span>
+            </span>
+            <div class="profile-picture">
+              <img src="./images/profile-1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <h3>Dashboard</h3>
+
+          <div class="info">
+            <p>
+              <span class="material-icons"> star </span> Star this project on
+              Github
+            </p>
+            <a href="">View more</a>
+          </div>
+
+          <div class="insights">
+            <div class="clients card">
+              <div class="icons">
+                <span class="material-icons"> groups </span>
+              </div>
+              <div class="content">
+                <h4>Total clients</h4>
+                <p>6389</p>
+              </div>
+            </div>
+            <div class="account card">
+              <div class="icons">
+                <span class="material-icons"> question_answer </span>
+              </div>
+              <div class="content">
+                <h4>Account balance</h4>
+                <p>6389</p>
+              </div>
+            </div>
+            <div class="sales card">
+              <div class="icons">
+                <span class="material-icons"> shopping_cart </span>
+              </div>
+              <div class="content">
+                <h4>New sales</h4>
+                <p>6389</p>
+              </div>
+            </div>
+            <div class="contacts card">
+              <div class="icons">
+                <span class="material-icons"> chat_bubble </span>
+              </div>
+              <div class="content">
+                <h4>Pending contacts</h4>
+                <p>6389</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="clients">
+            <table>
+              <thead>
+                <tr>
+                  <th>CLIENT</th>
+                  <th>AMOUNT</th>
+                  <th>STATUS</th>
+                  <th>DATE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="c1">
+                      <div class="profile-picture">
+                        <img src="./images/profile-1.jpg" alt="" />
+                      </div>
+                      <div>
+                        <h4>Chandler Jacobi</h4>
+                        <p>Direct Security Executive</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>$ 989.4</td>
+                  <td>
+                    <span class="primary"> primary </span>
+                  </td>
+                  <td>23 / 04 /2009</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="c1">
+                      <div class="profile-picture">
+                        <img src="./images/profile-1.jpg" alt="" />
+                      </div>
+                      <div>
+                        <h4>Chandler Jacobi</h4>
+                        <p>Direct Security Executive</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>$ 989.4</td>
+                  <td>
+                    <span class="success"> success </span>
+                  </td>
+                  <td>23 / 04 /2009</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="c1">
+                      <div class="profile-picture">
+                        <img src="./images/profile-1.jpg" alt="" />
+                      </div>
+                      <div>
+                        <h4>Chandler Jacobi</h4>
+                        <p>Direct Security Executive</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>$ 989.4</td>
+                  <td>
+                    <span class="danger"> danger </span>
+                  </td>
+                  <td>23 / 04 /2009</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="c1">
+                      <div class="profile-picture">
+                        <img src="./images/profile-1.jpg" alt="" />
+                      </div>
+                      <div>
+                        <h4>Chandler Jacobi</h4>
+                        <p>Direct Security Executive</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>$ 989.4</td>
+                  <td>
+                    <span class="pending"> pending </span>
+                  </td>
+                  <td>23 / 04 /2009</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
